@@ -52,9 +52,9 @@ const NewsLetterBox = () => {
     setIsSubmitting(true);
     setButtonText('SENDING...');
 
-    const serviceID = 'service_zgq58qi'; // Replace with your EmailJS service ID
-    const templateID = 'template_hl632gn'; // Replace with your EmailJS template ID
-    const userID = 'XtsX58k1Pp56-m8ob'; // Replace with your EmailJS user ID
+    const serviceID = 'service_fmw54yp'; // Replace with your EmailJS service ID
+    const templateID = 'template_2wilygi'; // Replace with your EmailJS template ID
+    const userID = 'Bn66H1avYAslh4Uzz'; // Replace with your EmailJS user ID
 
     emailjs
       .send(serviceID, templateID, formData, userID)
